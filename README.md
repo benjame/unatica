@@ -17,6 +17,8 @@ See [LICENSE](./LICENSE) for more details.
   - [License](#license)
   - [Table of Contents](#table-of-contents)
   - [Status](#status)
+  - [Pull Requests \& Issues](#pull-requests--issues)
+  - [Contributing](#contributing)
   - [Introduction](#introduction)
   - [Features](#features)
   - [Requirements](#requirements)
@@ -33,6 +35,19 @@ See [LICENSE](./LICENSE) for more details.
 ![GitHub Tests Status](https://img.shields.io/github/actions/workflow/status/benjame/unatica/tests.yml)
 ![GitHub Release](https://img.shields.io/github/v/release/benjame/unatica)
 ![GitHub Downloads](https://img.shields.io/github/downloads/benjame/unatica/total)
+
+Currently, the project is under active development, still not available on the Homebrew tap.
+It will be available on the Homebrew tap after the first release version v0.1.0.
+See [roadmap](#roadmap) for more details.
+
+## Pull Requests & Issues
+
+If you have any questions or suggestions, please open an issue or submit a pull request.
+We will be very appreciated for your response and suggestions.
+
+## Contributing
+
+If you want contribute to this project, please see [CONTRIBUTING.md](./docs/CONTRIBUTING.md) for more details.
 
 ## Introduction
 
@@ -74,19 +89,17 @@ See [usage guide](./docs/usage_guide.md) for more details.
 ### Developing Features
 
 - [ ] Safely uninstall macOS GUI applications (`v0.1.0`)
-- [ ] Safely remove residual files of macOS applications (`v0.2.0`)
-- [ ] Safely remove preferences of macOS applications (`v0.3.0`)
-- [ ] Support Application Extension Uninstallation (`v0.4.0`)
-- [ ] Support Application Plugin Uninstallation (`v0.5.0`)
-- [ ] Support Application Backup and Recovery (`v0.6.0`)
+- [ ] Safely remove residual files of macOS applications (`v0.1.0`)
+- [ ] Safely remove preferences of macOS applications (`v0.1.0`)
+- [ ] Support Application Extension Uninstallation (`v0.2.0`)
+- [ ] Support Application Plugin Uninstallation (`v0.2.0`)
 
 ### Future Features
 
-- [ ] Support Application Sandbox (`v0.7.0`)
-- [ ] Support Application Extension Uninstallation (`v0.8.0`)
-- [ ] Support Application Plugin Uninstallation (`v0.9.0`)
-- [ ] Support Application Translocation (`v0.10.0`)
-- [ ] Support Application Quarantine (`v0.11.0`)
+- [ ] Support Application Backup and Recovery (`v0.3.0` or later)
+- [ ] Support Application Translocation (`v0.4.0` or later)
+- [ ] Support Application Sandbox (`v0.5.0` or later)
+- [ ] Support Application Quarantine (`v0.6.0` or later)
 
 See [roadmap](./docs/roadmap.md) for more details.
 
