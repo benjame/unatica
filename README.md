@@ -14,6 +14,8 @@
   - [Introduction](#introduction)
   - [Features](#features)
   - [Requirements](#requirements)
+  - [Installation Guide](#installation-guide)
+  - [Usage Guide](#usage-guide)
   - [Roadmap](#roadmap)
     - [Developing Features](#developing-features)
     - [Future Features](#future-features)
@@ -31,14 +33,33 @@
 - Support batch uninstallation
 - Support application backup and recovery after uninstallation
 
+See [features](./docs/features.md) for more details.
 
 ## Requirements
 
-- macOS 14.0+
-- Python 3.12+
-![Python](https://img.shields.io/badge/python-3.12-blue.svg)
+![macOS](https://img.shields.io/badge/macOS-11.x+-blue.svg)
+![Python](https://img.shields.io/badge/python-3.10+-green.svg)
+![Xcode Command Line Tools](https://img.shields.io/badge/Xcode%20Command%20Line%20Tools-required-red.svg)
+![pip](https://img.shields.io/badge/pip-22.0+-yellow.svg)
+![Python virtual environment](https://img.shields.io/badge/venv-required-orange.svg)
 
-![GitHub Pipenv locked Python version](https://img.shields.io/github/pipenv/locked/python-version//macos_app_uninstaller)
+
+- `macOS` 11.0+ (macOS 11.x or later)
+- `Python` 3.10+
+- `Xcode Command Line Tools`
+- `pip` 22.0+
+- Python virtual environment (`venv`)
+
+
+## Installation Guide
+
+See [installation guide](./docs/installation_guide.md) for more details.
+
+
+## Usage Guide
+
+See [usage guide](./docs/usage_guide.md) for more details.
+
 
 ## Roadmap
 
@@ -59,7 +80,7 @@
 - [ ] Support Application Translocation (`v0.10.0`)
 - [ ] Support Application Quarantine (`v0.11.0`)
 
-See [Roadmap](./roadmap.md) for more details.
+See [roadmap](./docs/roadmap.md) for more details.
 
 ## Installation
 
