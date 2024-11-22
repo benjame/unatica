@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=45", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "unatica"
+version = "0.0.1"
+description = "A Safe and Simple macOS App Uninstaller"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+dependencies = ["rich>=13.7.0"]
+
+[project.scripts]
+unatica = "unatica.cli:main"

@@ -1,0 +1,7 @@
+# 开发环境依赖
+-r requirements.txt    # 包含生产环境依赖
+pytest>=7.4.3         # 测试框架
+black>=23.11.0        # 代码格式化
+isort>=5.12.0         # import 排序
+flake8>=6.1.0         # 代码检查
+mypy>=1.7.0           # 类型检查
