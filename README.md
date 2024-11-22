@@ -7,6 +7,7 @@
 ## License
 
 ![GitHub](https://img.shields.io/github/license/benjame/unatica)
+
 This project is licensed under the terms of the [Apache License 2.0](./LICENSE). 
 See [LICENSE](./LICENSE) for more details.
 
