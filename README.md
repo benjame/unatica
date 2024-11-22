@@ -2,14 +2,19 @@
 
 **A Safe and Simple macOS App Uninstaller.**
 
-> **Unatica.app** is designed to help you safely and completely remove unwanted applications from your macOS system.
+> **Unatica.app** is designed to help you safely and completely remove unwanted applications from your macOS system. It is a simple and easy-to-use tool that can help you uninstall applications and remove their residual files, preferences, and LaunchAgent/LaunchDaemon. See [features](#features) for more details.
 
-[![GitHub](https://img.shields.io/github/license/yourusername/macos_app_uninstaller)](./LICENSE)
+## License
+
+![GitHub](https://img.shields.io/github/license/benjame/unatica)
+This project is licensed under the terms of the [Apache License 2.0](./LICENSE). 
+See [LICENSE](./LICENSE) for more details.
 
 
 ## Table of Contents
 
 - [Unatica.app](#unaticaapp)
+  - [License](#license)
   - [Table of Contents](#table-of-contents)
   - [Introduction](#introduction)
   - [Features](#features)
