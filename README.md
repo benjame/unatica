@@ -30,8 +30,8 @@ See [LICENSE](./LICENSE) for more details.
 
 ## Status
 
-![GitHub Tests Status](https://img.shields.io/github/actions/workflow/status/benjame/unatica)
-![GitHub Release](https://img.shields.io/github/v/release/benjame/unatica/release.yml)
+![GitHub Tests Status](https://img.shields.io/github/actions/workflow/status/benjame/unatica/tests.yml)
+![GitHub Release](https://img.shields.io/github/v/release/benjame/unatica)
 ![GitHub Downloads](https://img.shields.io/github/downloads/benjame/unatica/total)
 
 ## Introduction
