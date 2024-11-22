@@ -2,12 +2,12 @@ class Unatica < Formula
   include Language::Python::Virtualenv
 
   desc "A Safe and Simple macOS App Uninstaller"
-  homepage "https://github.com/yourusername/unatica"
-  url "https://github.com/yourusername/unatica/archive/refs/tags/v1.0.0.tar.gz"
+  homepage "https://github.com/benjame/unatica"
+  url "https://github.com/benjame/unatica/archive/refs/tags/v0.0.1.tar.gz"
   sha256 "YOUR_TARBALL_SHA256"
-  license "MIT"
+  license "Apache-2.0"
 
-  depends_on "python@3.10"
+  depends_on "python@3.12"
 
   resource "rich" do
     url "https://files.pythonhosted.org/packages/source/r/rich/rich-13.7.0.tar.gz"
