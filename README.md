@@ -17,6 +17,7 @@ See [LICENSE](./LICENSE) for more details.
 - [Unatica.app](#unaticaapp)
   - [License](#license)
   - [Table of Contents](#table-of-contents)
+  - [Status](#status)
   - [Introduction](#introduction)
   - [Features](#features)
   - [Requirements](#requirements)
@@ -27,6 +28,12 @@ See [LICENSE](./LICENSE) for more details.
     - [Future Features](#future-features)
   - [Installation](#installation)
   - [Setup and Usage](#setup-and-usage)
+
+
+## Status
+
+![GitHub Tests Status](https://img.shields.io/github/actions/workflow/status/benjame/unatica/tests.yml)
+
 
 ## Introduction
 
