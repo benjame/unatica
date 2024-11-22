@@ -8,9 +8,8 @@
 
 ![GitHub](https://img.shields.io/github/license/benjame/unatica)
 
-This project is licensed under the terms of the [Apache License 2.0](./LICENSE). 
+This project is licensed under the terms of the [Apache License 2.0](./LICENSE).
 See [LICENSE](./LICENSE) for more details.
-
 
 ## Table of Contents
 
@@ -29,11 +28,10 @@ See [LICENSE](./LICENSE) for more details.
   - [Installation](#installation)
   - [Setup and Usage](#setup-and-usage)
 
-
 ## Status
 
 ![GitHub Tests Status](https://img.shields.io/github/actions/workflow/status/benjame/unatica/tests.yml)
-
+![GitHub Release](https://img.shields.io/github/v/release/benjame/unatica)
 
 ## Introduction
 
@@ -56,23 +54,19 @@ See [features](./docs/features.md) for more details.
 ![pip](https://img.shields.io/badge/pip-22.0+-yellow.svg)
 ![Python virtual environment](https://img.shields.io/badge/venv-required-orange.svg)
 
-
 - `macOS` 11.0+ (macOS 11.x or later)
 - `Python` 3.10+
 - `Xcode Command Line Tools`
 - `pip` 22.0+
 - Python virtual environment (`venv`)
 
-
 ## Installation Guide
 
 See [installation guide](./docs/installation_guide.md) for more details.
 
-
 ## Usage Guide
 
 See [usage guide](./docs/usage_guide.md) for more details.
-
 
 ## Roadmap
 
@@ -103,7 +97,7 @@ See [roadmap](./docs/roadmap.md) for more details.
 
 ```bash
 git clone https://github.com/yourusername/macos_app_uninstaller.git
-cd macos_app_uninstaller
+cd unatica
 pip install -r requirements.txt
 ```
 
@@ -120,7 +114,7 @@ pip install -r requirements.txt  # production environment
 pip install -r requirements-dev.txt  # development environment
 
 # Run the program
-python src/macos_app_uninstaller.py
+python src/unatica/cli.py
 
 # Code quality checks (development environment)
 black src tests     # format code
